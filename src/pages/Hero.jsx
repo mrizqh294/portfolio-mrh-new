@@ -66,7 +66,7 @@ const Hero = () => {
 
                             <a
                                 href={CV}
-                                download
+                                download="CV-Muhammad-Rizki-Haikal.pdf"
                                 className="hover:text-gray-900 dark:hover:text-white hover:scale-110 transition"
                             >
                                 Unduh CV
