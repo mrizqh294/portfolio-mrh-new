@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import sicatatImg from "../assets/sicatat.png";
 
 const Portfolio = () => {
   
@@ -7,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       title: "Sicatat Alfamed",
       image:
-        `${import.meta.env.BASE_URL}src/assets/sicatat.png`,
+        sicatatImg,
       description:
         "Aplikasi POS dengan fitur pengelolaan data dan stok obat, Pencatatan Transaksi, dan Pembuatan laporan.",
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
