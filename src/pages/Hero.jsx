@@ -60,7 +60,7 @@ const Hero = () => {
                                 href="#portfolio"
                                 className="hover:text-gray-900 dark:hover:text-white hover:scale-110 transition"
                             >
-                                Portfolio
+                                Portofolio
                             </a>
 
                             <a
