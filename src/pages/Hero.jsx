@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import CV from "../assets/MuhammadRizkiHaikalCV.pdf";
 
 const containerVariants = {
     hidden: {},
@@ -64,7 +65,7 @@ const Hero = () => {
                             </a>
 
                             <a
-                                href="/cv.pdf"
+                                href={CV}
                                 download
                                 className="hover:text-gray-900 dark:hover:text-white hover:scale-110 transition"
                             >
