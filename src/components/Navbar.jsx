@@ -171,11 +171,6 @@ const Navbar = () => {
                   </a>
               </motion.li>
               <motion.li variants={itemVariants}>
-                  <a href="#education" onClick={() => setIsOpen(false)}>
-                    Pendidikan
-                  </a>
-              </motion.li>
-              <motion.li variants={itemVariants}>
                   <a href="#contact" onClick={() => setIsOpen(false)}>
                     Kontak
                   </a>

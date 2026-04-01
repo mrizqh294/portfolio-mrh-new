@@ -74,7 +74,7 @@ const Contact = () => {
               <h3 className="font-semibold text-gray-900 dark:text-white">
                 Alamat
               </h3>
-              <p className="text-gray-500">Bandung, Indonesia</p>
+              <p className="text-gray-500">Subang, Indonesia</p>
             </div>
           </motion.div>
 
