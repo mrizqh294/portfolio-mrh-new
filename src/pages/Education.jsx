@@ -60,7 +60,7 @@ const Education = () => {
         >
           
           <h2 className="text-4xl font-bold mt-2 mb-4">
-            Pengalaman Kerja dan Proyek
+            Pengalaman
           </h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
@@ -91,7 +91,7 @@ const Education = () => {
               <span className="absolute -left-[42px] top-2 w-5 h-5 rounded-full bg-gray-900 border-4 border-gray-900 dark:bg-white dark:border-white" />
 
               {/* Card */}
-              <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-xl border border-gray-500 p-6 shadow-lg hover:border-cyan-500 ">
+              <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-xl border border-gray-500 p-6 shadow-lg hover:border-gray-400 ">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                   <div>
                     <h3 className="text-2xl font-bold">
@@ -116,7 +116,7 @@ const Education = () => {
                   {exp.technologies.map((tech) => (
                     <span
                       key={tech}
-                      className="px-3 py-1 rounded-full text-gray-500 dark:text-gray-400 border border-cyan-500/20 text-sm"
+                      className="px-3 py-1 rounded-full text-gray-500 dark:text-gray-400 border border-gray-400/20 text-sm"
                     >
                       {tech}
                     </span>

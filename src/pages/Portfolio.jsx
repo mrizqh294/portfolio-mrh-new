@@ -73,11 +73,11 @@ const Portfolio = () => {
           </p>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Project Saya
+            Proyek dan Pencapaian
           </h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
-            Berikut beberapa project-project yang sudah saya kerjakan.
+            Berikut beberapa proyek dan pencapaian saya.
           </p>
         </motion.div>
 
