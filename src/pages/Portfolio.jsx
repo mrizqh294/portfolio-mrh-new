@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import sicatatImg from "../assets/sicatat.png";
+import businessCIImg from "../assets/business.jpg"; 
 
 const Portfolio = () => {
   
@@ -12,7 +13,17 @@ const Portfolio = () => {
       description:
         "Aplikasi POS dengan fitur pengelolaan data dan stok obat, Pencatatan Transaksi, dan Pembuatan laporan.",
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
-      live: "https://example-ecommerce.com",
+      live: "",
+    },
+    {
+      id: 2,
+      title: "Business Plan Creative & Innovative 2024",
+      image: 
+        businessCIImg,
+      description:
+        "Proyek ini merupakan proyek kelompok, menghasilkan rancangan bisnis technopreneurship berupa chatbot AI yang dirancang untuk membantu UMKM merintis usaha melalui penyediaan panduan regulasi bisnis dan analisis pasar.",
+      github: "",
+      live: "",
     },
   ];
 
@@ -120,17 +131,17 @@ const Portfolio = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-xl border border-gray-900 px-4 py-2 text-sm font-medium text-gray-900 transition-all duration-300 hover:bg-gray-900 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900"
                   >
-                    GitHub
+                    Selengkapnya
                   </a>
 
-                  <a
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-xl bg-gray-900 px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-300"
                   >
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </motion.div>

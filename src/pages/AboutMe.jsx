@@ -65,12 +65,12 @@ const AboutMe = () => {
 
                         <p className="text-gray-500 dark:text-gray-300 mt-4 leading-relaxed">
                             Berpengalaman dalam membangun dan mengelola API serta integrasi
-                            dengan database seperti MySQL dan PostgreSQL. Terbiasa menggunakan
-                            Git dan Postman dalam workflow pengembangan.
+                            dengan database seperti MySQL dan PostgreSQL. Terbiasa menerapkan metodologi pengembangan 
+                            modern dan memanfaatkan AI-assisted tools untuk meningkatkan efisiensi proses pengembangan.
                         </p>
 
                         <p className="text-gray-500 dark:text-gray-300 mt-4 leading-relaxed">
-                            Memiliki kemampuan analisis yang baik, detail-oriented, serta mampu
+                            Memiliki kemampuan analisis yang baik, serta mampu
                             bekerja secara individu maupun dalam tim untuk menghasilkan solusi
                             yang efisien dan scalable.
                         </p>
@@ -88,8 +88,8 @@ const AboutMe = () => {
                             "MySQL",
                             "PostgreSQL",
                             "Git",
-                            "Postman",
-                            "Tailwind CSS",
+                            "UML",
+                            "Ms. Office",
                         ].map((skill, index) => (
                             <motion.div
                                 key={index}

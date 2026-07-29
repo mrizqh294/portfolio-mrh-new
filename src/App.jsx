@@ -3,6 +3,7 @@ import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Education from "./pages/Education";
 import Footer from "./pages/Footer";
 
 
@@ -14,9 +15,11 @@ function App() {
       <main>
         <Hero />
         <AboutMe />
+        <Education />
         <Portfolio />
         <Contact />
         <Footer />
+        
       </main>
     </>
   )

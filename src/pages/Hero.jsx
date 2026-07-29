@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import CV from "../assets/MuhammadRizkiHaikalCV.pdf";
+import CV from "../assets/CVMuhammadRizkiHaikal.pdf";
 
 const containerVariants = {
     hidden: {},
