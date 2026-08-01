@@ -68,10 +68,6 @@ const Portfolio = () => {
           whileInView="visible"
           className="text-center mb-14"
         >
-          <p className="text-sm md:text-base font-medium tracking-[0.2em] uppercase text-gray-500 dark:text-gray-400 mb-3">
-            Portofolio
-          </p>
-
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Proyek dan Pencapaian
           </h2>

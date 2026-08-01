@@ -99,14 +99,14 @@ const Navbar = () => {
         >
           <ul className="hidden md:flex justify-center items-center gap-10 h-16 text-gray-500 dark:text-white font-medium">
             <li>
-              <a href="#hero" className="block hover:text-gray-900 dark:hover:text-white hover:scale-110 transition">
+              <a href="#about" className="block hover:text-gray-900 dark:hover:text-white hover:scale-110 transition">
                 Beranda
               </a>
             </li>
 
             <li>
-              <a href="#about" className="block hover:text-gray-900 dark:hover:text-white hover:scale-110 transition">
-                Tentang Saya
+              <a href="#experience" className="block hover:text-gray-900 dark:hover:text-white hover:scale-110 transition">
+                Pengalaman
               </a>
             </li>
 
@@ -156,13 +156,13 @@ const Navbar = () => {
                 className="flex flex-col gap-4 text-gray-500 dark:text-white font-medium"
             >
               <motion.li variants={itemVariants}>
-                  <a href="#hero" onClick={() => setIsOpen(false)}>
-                    Beranda
+                  <a href="#about" onClick={() => setIsOpen(false)}>
+                    Tentang Saya
                   </a>
               </motion.li>
               <motion.li variants={itemVariants}>
-                  <a href="#about" onClick={() => setIsOpen(false)}>
-                    Tentang Saya
+                  <a href="#experience" onClick={() => setIsOpen(false)}>
+                    Pengalaman
                   </a>
               </motion.li>
               <motion.li variants={itemVariants}>

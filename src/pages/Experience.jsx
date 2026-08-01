@@ -46,7 +46,7 @@ const item = {
 const Education = () => {
   return (
     <section
-      id="education"
+      id="experience"
       className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 text-gray-900 dark:text-white py-20 px-6"
     >
       <div className="max-w-5xl mx-auto">
@@ -64,7 +64,7 @@ const Education = () => {
           </h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
-            Berikut merupakan pengalaman kerja dan proyek yang sudah saya kerjakan.
+            Berikut merupakan pengalaman kerja saya.
           </p>
 
         </motion.div>
