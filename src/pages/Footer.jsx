@@ -44,23 +44,28 @@ const Footer = () => {
             <h3 className="text-gray-900 dark:text-white font-semibold mb-3">Navigasi</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#hero" className="hover:text-white transition duration-300">
-                  Beranda
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="hover:text-white transition duration-300">
+                <a href="#about" className="hover:text-gray-900 dark:hover:text-white transition duration-300">
                   Tentang Saya
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-white transition duration-300">
-                  Portfolio
+                <a href="#experience" className="hover:text-gray-900 dark:hover:text-white transition duration-300">
+                  Pengalaman
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-white transition duration-300">
-                  Hubungi Saya
+                <a href="#portfolio" className="hover:text-gray-900 dark:hover:text-white  transition duration-300">
+                  Portofolio
+                </a>
+              </li>
+              <li>
+                <a href="#activities" className="hover:text-gray-900 dark:hover:text-white transition duration-300">
+                  Pelatihan
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-gray-900 dark:hover:text-white transition duration-300">
+                  Kontak
                 </a>
               </li>
             </ul>
