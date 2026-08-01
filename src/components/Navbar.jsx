@@ -91,7 +91,7 @@ const Navbar = () => {
           className="flex items-center"
           variants={fadeIn("left")}
         >
-          <h1 className="font-extrabold text-gray-500 dark:text-white">MRH</h1>
+          <h1 className="font-extrabold text-2xl text-gray-900 dark:text-white">Haikal.</h1>
         </motion.div>
 
         <motion.div 
@@ -125,7 +125,7 @@ const Navbar = () => {
         </motion.div>
 
         <motion.div 
-          className="flex items-center"
+          className="flex items-center my-4 md:my-0 gap-4"
           variants={fadeIn("right")}
         >
           <ThemeToggle />
@@ -144,7 +144,7 @@ const Navbar = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div 
-            className="md:hidden bg-white dark:bg-gray-900 px-6 pb-4"
+            className="md:hidden bg-white dark:bg-gray-900 px-6"
             variants={mobileMenuVariants}
             initial="hidden"
             animate="visible"

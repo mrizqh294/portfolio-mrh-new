@@ -75,7 +75,7 @@ const Education = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="relative border-l-2 border-gray-900 dark:border-white ml-4"
+          className="relative border-l-2 border-gray-400 dark:border-white ml-4"
         >
           {experiences.map((exp, index) => (
             <motion.div
@@ -88,7 +88,7 @@ const Education = () => {
               className="relative mb-12 ml-8"
             >
               {/* Timeline Dot */}
-              <span className="absolute -left-[42px] top-2 w-5 h-5 rounded-full bg-gray-900 border-4 border-gray-900 dark:bg-white dark:border-white" />
+              <span className="absolute -left-[42px] top-2 w-5 h-5 rounded-full bg-gray-400 border-4 border-gray-400 dark:bg-white dark:border-white" />
 
               {/* Card */}
               <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-xl border border-gray-500 p-6 shadow-lg hover:border-gray-400 ">

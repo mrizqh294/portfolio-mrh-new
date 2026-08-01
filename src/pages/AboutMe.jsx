@@ -26,7 +26,7 @@ const AboutMe = () => {
     return(
         <section 
             id="about" 
-            className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 flex items-center"
+            className="py-20 min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 items-center"
         >
             <div className="container mx-auto px-6 lg:px-20">
 
@@ -51,7 +51,7 @@ const AboutMe = () => {
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
-                    className="grid lg:grid-cols-2 gap-10"
+                    className="max-w-3xl mx-auto space-y-6 text-center text-gray-700 dark:text-gray-300"
                 >
 
                     {/* ========= LEFT (TEXT) ========= */}
@@ -74,41 +74,6 @@ const AboutMe = () => {
                             bekerja secara individu maupun dalam tim untuk menghasilkan solusi
                             yang efisien dan scalable.
                         </p>
-                    </motion.div>
-
-                    {/* ========= RIGHT (SKILLS) ========= */}
-                    <motion.div 
-                        variants={container}
-                        className="grid grid-cols-2 gap-4"
-                    >
-                        {[
-                            "Laravel",
-                            "Node.js",
-                            "Django",
-                            "MySQL",
-                            "PostgreSQL",
-                            "Git",
-                            "UML",
-                            "Ms. Office",
-                        ].map((skill, index) => (
-                            <motion.div
-                                key={index}
-                                variants={item}
-                                initial="hidden"
-                                whileInView="show"
-                                whileHover={{ scale: 1.05 }}
-                                className="
-                                    bg-gray-100 dark:bg-gray-800
-                                    text-gray-900 dark:text-white
-                                    p-4 rounded-xl text-center
-                                    shadow-sm hover:shadow-lg
-                                    transition-all duration-300
-                                    cursor-pointer
-                                "
-                            >
-                                {skill}
-                            </motion.div>
-                        ))}
                     </motion.div>
 
                 </motion.div>
