@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Experience from "./pages/Experience";
 import Footer from "./pages/Footer";
 import Stack from "./pages/Stack";
+import Activities from "./pages/Activities";
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Experience />
         <Stack />
         <Portfolio />
+        <Activities />  
         <Contact />
         <Footer />
         

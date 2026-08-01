@@ -84,7 +84,7 @@ const Portfolio = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid gap-8 md:grid-cols-2 xl:grid-cols-3"
+          className="max-w-5xl mx-auto grid gap-8 md:grid-cols-2 xl:grid-cols-3"
         >
           {projects.map((project) => (
             // Card project
