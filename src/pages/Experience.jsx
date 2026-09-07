@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    company: "BPD Desa Leles",
+    position: "Freelance Web Developer",
+    period: "Agu 2026 - Sep 2026",
+    description:
+      "Membangun sistem informasi pengecekan Daftar Pemilih Tetap (DPT) untuk Pilkades Serentak Desa Leles 2026",
+    technologies: ["Next.js", "MySQL", "Prisma ORM", "Tailwind CSS", "React"],
+  },
+  {
     company: "Apotek Alfamed",
     position: "Freelance Web Developer",
     period: "Jul 2025 - Okt 2025",

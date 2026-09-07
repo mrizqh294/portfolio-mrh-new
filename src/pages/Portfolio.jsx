@@ -1,12 +1,23 @@
 import { motion } from "framer-motion";
 import sicatatImg from "../assets/sicatat.png";
-import businessCIImg from "../assets/business.jpg"; 
+import businessCIImg from "../assets/business.png"; 
+import pilkadesImg from "../assets/pilkades.png";
 
 const Portfolio = () => {
   
   const projects = [
     {
       id: 1,
+      title: "Cek DPT Pilkades Serentak Desa Leles 2026",
+      image:
+        pilkadesImg,
+      description:
+        "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026, Memudahkan masyarakat untuk mengecek status DPT mereka secara online.",
+      github: "#",
+      live: "",
+    },
+    {
+      id: 2,
       title: "Sicatat Alfamed",
       image:
         sicatatImg,
@@ -16,7 +27,7 @@ const Portfolio = () => {
       live: "",
     },
     {
-      id: 2,
+      id: 3,
       title: "Business Plan Creative & Innovative 2024",
       image: 
         businessCIImg,
