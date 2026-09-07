@@ -13,7 +13,7 @@ const Portfolio = () => {
         pilkadesImg,
       description:
         "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026, Memudahkan masyarakat untuk mengecek status DPT mereka secara online.",
-      github: "#",
+      github: "https://pilkadesleles.net",
       live: "",
     },
     {
