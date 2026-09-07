@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import sicatatImg from "../assets/sicatat.png";
 import businessCIImg from "../assets/business.png"; 
 import pilkadesImg from "../assets/pilkades.png";
+import suciIndahImg from "../assets/suciip.png";
 
 const Portfolio = () => {
   
@@ -28,6 +29,16 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "Portfolio Suci Indah Purnama",
+      image:
+        suciIndahImg,
+      description:
+        "Website  portfolio pribadi yang menampilkan informasi tentang diri, keterampilan, dan pencapaian.",
+      github: "https://mrizqh294.github.io/portfolio-suciindah",
+      live: "",
+    },
+    {
+      id: 4,
       title: "Business Plan Creative & Innovative 2024",
       image: 
         businessCIImg,
