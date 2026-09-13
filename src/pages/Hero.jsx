@@ -49,7 +49,7 @@ const Hero = () => {
                             variants={itemVariants}
                             className="text-2xl lg:text-3xl font-semibold text-gray-600 dark:text-gray-300 mt-3"
                         >
-                            Fullstack Developer
+                            Fullstack Web Developer
                         </motion.h2>
 
                         <motion.div

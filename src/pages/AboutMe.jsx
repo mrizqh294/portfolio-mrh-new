@@ -41,7 +41,7 @@ const AboutMe = () => {
                         Tentang Saya
                     </h2>
                     <p className="text-gray-500 mt-2">
-                        Fullstack Developer
+                        Fullstack Web Developer
                     </p>
                 </motion.div>
 

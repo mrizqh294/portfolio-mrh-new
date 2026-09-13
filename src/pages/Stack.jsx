@@ -88,7 +88,7 @@ const Stack = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.2 }}
-                    className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4"
+                    className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 justify-center"
                 >
                     {techStack.map((tech) => (
                         <motion.div

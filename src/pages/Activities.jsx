@@ -4,6 +4,7 @@ import sertifikat2 from "../assets/sertifikat2.png";
 import sertifikat3 from "../assets/sertifikat3.png";
 import sertifikat4 from "../assets/sertifikat4.png";
 import sertifikat5 from "../assets/sertifikat5.png";
+import sertifikat6 from "../assets/sertifikat6.png"
 
 const Activities = () => {
     const activities = [
@@ -30,13 +31,20 @@ const Activities = () => {
         },
         {
             id: 4,
+            title: "Business Plan Creative & Innovative 2024",
+            description:
+                "TIF Universitas Pasundan",
+            image: sertifikat6,
+        },
+        {
+            id: 5,
             title: "Belajar Dasar Pemrograman Javascript",
             description:
                 "Dicoding Indonesia",
             image: sertifikat4,
         },
         {
-            id: 5,
+            id: 6,
             title: "Belajar Dasar Pemrograman Web",
             description:
                 "Dicoding Indonesia",
@@ -104,10 +112,10 @@ const Activities = () => {
                             variants={cardVariants}
                             whileHover={{ y: -6 }}
                             transition={{ type: "spring", stiffness: 250, damping: 18 }}
-                            className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md hover:shadow-2xl dark:border-gray-800 dark:bg-gray-800"
+                            className="group overflow-hidden border rounded-2xl border-gray-200 bg-white shadow-md hover:shadow-2xl dark:border-gray-800 dark:bg-gray-800"
                         >
                             {/* Gambar aktivitas */}
-                            <div className="overflow-hidden">
+                            <div className="overflow-hidden p-3">
                                 <img
                                     src={item.image}
                                     alt={item.title}

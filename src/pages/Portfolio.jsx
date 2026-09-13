@@ -37,16 +37,6 @@ const Portfolio = () => {
       github: "https://mrizqh294.github.io/portfolio-suciindah",
       live: "",
     },
-    {
-      id: 4,
-      title: "Business Plan Creative & Innovative 2024",
-      image: 
-        businessCIImg,
-      description:
-        "Proyek ini merupakan proyek kelompok, menghasilkan rancangan bisnis technopreneurship berupa chatbot AI yang dirancang untuk membantu UMKM merintis usaha melalui penyediaan panduan regulasi bisnis dan analisis pasar.",
-      github: "",
-      live: "",
-    },
   ];
 
   // Variants animasi untuk container utama
@@ -91,11 +81,11 @@ const Portfolio = () => {
           className="text-center mb-14"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Proyek dan Pencapaian
+            Portofolio
           </h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
-            Berikut beberapa proyek dan pencapaian saya.
+            Berikut beberapa proyek yang sudah saya kerjakan.
           </p>
         </motion.div>
 
@@ -122,7 +112,7 @@ const Portfolio = () => {
             >
               {/* Gambar project */}
               {/* overflow-hidden dipakai agar efek zoom gambar tetap rapi */}
-              <div className="overflow-hidden">
+              <div className="p-3 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}

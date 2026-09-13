@@ -2,20 +2,20 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "BPD Desa Leles",
-    position: "Freelance Web Developer",
-    period: "Agu 2026 - Sep 2026",
+    company: "Freelance",
+    position: "Fullstack Web Developer",
+    period: "Agu 2025 - Sekarang",
     description:
-      "Membangun sistem informasi pengecekan Daftar Pemilih Tetap (DPT) untuk Pilkades Serentak Desa Leles 2026",
-    technologies: ["Next.js", "MySQL", "Prisma ORM", "Tailwind CSS", "React"],
-  },
-  {
-    company: "Apotek Alfamed",
-    position: "Freelance Web Developer",
-    period: "Jul 2025 - Okt 2025",
-    description:
-      "Membangun sistem informasi penjualan berbasis web dari nol menggunakan framework Laravel dan MySQL, Mengotomatisasi pelaporan penjualan apotek kedalam format excel.",
-    technologies: ["Laravel", "MySQL", "Tailwind CSS", "Mattwebsite"],
+      "Mengembangkan berbagai aplikasi web dan sistem informasi, termasuk sistem DPT Pilkades, sistem penjualan dan stok apotek, serta website portofolio, dengan menangani frontend, backend, database, API, dan deployment.",
+    technologies: [
+      "Next.js",
+      "MySQL",
+      "Prisma ORM",
+      "Tailwind CSS",
+      "React",
+      "Laravel",
+      "REST API",
+    ],
   },
   {
     company: "PT. Kunci Transformasi Digital",
@@ -25,7 +25,6 @@ const experiences = [
       "Mengembangkan API untuk dashboard website sekolah dengan menggunakan framework Django, Berhasil menyelesaikan 10+ endpoint API, Lulus magang dengan nilai A.",
     technologies: ["Django", "PostgreSQL", "Git", "REST API"],
   },
-  
 ];
 
 const container = {
@@ -66,15 +65,11 @@ const Education = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          
-          <h2 className="text-4xl font-bold mt-2 mb-4">
-            Pengalaman
-          </h2>
+          <h2 className="text-4xl font-bold mt-2 mb-4">Pengalaman</h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
             Berikut merupakan pengalaman kerja saya.
           </p>
-
         </motion.div>
 
         {/* Timeline */}
@@ -83,7 +78,7 @@ const Education = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="relative border-l-2 border-gray-900 dark:border-white ml-4"
+          className="relative border-l-2 border-gray-500 dark:border-gray-500 ml-4"
         >
           {experiences.map((exp, index) => (
             <motion.div
@@ -96,29 +91,23 @@ const Education = () => {
               className="relative mb-12 ml-8"
             >
               {/* Timeline Dot */}
-              <span className="absolute -left-[42px] top-2 w-5 h-5 rounded-full bg-white border-2 border-gray-900 dark:bg-gray-900 dark:border-white" />
+              <span className="absolute -left-[40px] top-2 w-4 h-4 rounded-full bg-white border-2 border-gray-900 dark:bg-gray-900 dark:border-gray-500" />
 
               {/* Card */}
               <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-xl border border-gray-500 p-6 shadow-lg hover:border-gray-400 ">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                   <div>
-                    <h3 className="text-2xl font-bold">
-                      {exp.position}
-                    </h3>
+                    <h3 className="text-2xl font-bold">{exp.position}</h3>
 
                     <p className="text-gray-500 dark:text-gray-400 mt-1">
                       {exp.company}
                     </p>
                   </div>
 
-                  <span className="text-sm mt-3 md:mt-0">
-                    {exp.period}
-                  </span>
+                  <span className="text-sm mt-3 md:mt-0">{exp.period}</span>
                 </div>
 
-                <p className="mt-5 leading-relaxed">
-                  {exp.description}
-                </p>
+                <p className="mt-5 leading-relaxed">{exp.description}</p>
 
                 <div className="flex flex-wrap gap-2 mt-5">
                   {exp.technologies.map((tech) => (
