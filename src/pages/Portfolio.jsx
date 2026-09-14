@@ -112,11 +112,11 @@ const Portfolio = () => {
             >
               {/* Gambar project */}
               {/* overflow-hidden dipakai agar efek zoom gambar tetap rapi */}
-              <div className="overflow-hidden">
+              <div className="overflow-hidden p-2">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-56 w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="h-56 w-full object-cover rounded-md transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 

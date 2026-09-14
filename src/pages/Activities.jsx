@@ -115,11 +115,11 @@ const Activities = () => {
                             className="group overflow-hidden border rounded-2xl border-gray-200 bg-white shadow-md hover:shadow-2xl dark:border-gray-800 dark:bg-gray-800"
                         >
                             {/* Gambar aktivitas */}
-                            <div className="overflow-hidden">
+                            <div className="overflow-hidden p-2">
                                 <img
                                     src={item.image}
                                     alt={item.title}
-                                    className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    className="h-48 w-full object-cover rounded-md transition-transform duration-500 group-hover:scale-110"
                                 />
                             </div>
 

@@ -140,7 +140,7 @@ const AboutMe = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
-              className="flex gap-10 flex-wrap justify-center dark:bg-gray-800 rounded-2xl p-5"
+              className="flex gap-10 flex-wrap justify-center dark:bg-gray-800 rounded-2xl p-7"
             >
               {techStack.map((tech) => (
                 <motion.div

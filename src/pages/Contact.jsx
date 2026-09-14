@@ -243,9 +243,9 @@ const Contact = () => {
                         {/* Button Submit */}
                         <button
                             type="submit"
-                            className="w-full bg-gray-900 dark:bg-gray-200 text-white dark:text-black text-sm font-medium py-3 rounded-lg
+                            className="w-full border border-gray-200 bg-gray-900 dark:bg-gray-800 text-white hover:text-gray-900 text-sm font-medium py-3 rounded-lg
                                     transition-colors duration-300
-                                    hover:bg-gray-700"
+                                    hover:bg-white"
                         >
                             Kirim Pesan
                         </button>
