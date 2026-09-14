@@ -150,7 +150,7 @@ const Navbar = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div 
-            className="md:hidden bg-white dark:bg-gray-900 px-6 py-6 text-center"
+            className="md:hidden bg-white dark:bg-gray-900 px-6 pb-6 text-center"
             variants={mobileMenuVariants}
             initial="hidden"
             animate="visible"

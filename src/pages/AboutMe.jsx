@@ -140,7 +140,7 @@ const AboutMe = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
-              className="flex gap-10 flex-wrap justify-center md:dark:bg-gray-800 rounded-2xl p-6"
+              className="flex gap-10 flex-wrap justify-center dark:bg-gray-800 rounded-2xl p-5"
             >
               {techStack.map((tech) => (
                 <motion.div
@@ -158,12 +158,12 @@ const AboutMe = () => {
                       alt={tech.name}
                       className="h-full w-full object-contain
                                 grayscale opacity-60
-                                dark:opacity-100
+                                dark:opacity-100 dark:grayscale-0
                                 transition-all duration-300
                                 group-hover:grayscale-0 group-hover:opacity-100"
                     />
                   </div>
-                  <span className="text-sm font-medium text-zinc-400 dark:text-gray-300 transition-colors duration-300 group-hover:text-zinc-900">
+                  <span className="text-sm font-medium text-zinc-400 dark:text-gray-300 transition-colors duration-300 hover:text-zinc-900 dark:hover:text-white">
                     {tech.name}
                   </span>
                 </motion.div>
