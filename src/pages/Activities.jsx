@@ -7,42 +7,42 @@ const Activities = () => {
             title: "Promt Engineering untuk Software Developer",
             description:
                 "Dicoding Indonesia",
-            image: "/public/assets/sertifikat1.png",
+            image: "/assets/sertifikat1.png",
         },
         {
             id: 2,
             title: "Belajar Dasar AI",
             description:
                 "Dicoding Indonesia",
-            image: "/public/assets/sertifikat2.png",
+            image: "/assets/sertifikat2.png",
         },
         {
             id: 3,
             title: "Jobs Ready: Skill (Bahasa)",
             description:
                 "Wadhwani Foundation",
-            image: "/public/assets/sertifikat3.png",
+            image: "/assets/sertifikat3.png",
         },
         {
             id: 4,
             title: "Business Plan Creative & Innovative 2024",
             description:
                 "TIF Universitas Pasundan",
-            image: "/public/assets/sertifikat6.png",
+            image: "/assets/sertifikat6.png",
         },
         {
             id: 5,
             title: "Belajar Dasar Pemrograman Javascript",
             description:
                 "Dicoding Indonesia",
-            image: "/public/assets/sertifikat4.png",
+            image: "/assets/sertifikat4.png",
         },
         {
             id: 6,
             title: "Belajar Dasar Pemrograman Web",
             description:
                 "Dicoding Indonesia",
-            image: "/public/assets/sertifikat5.png",
+            image: "/assets/sertifikat5.png",
         },
     ];
 

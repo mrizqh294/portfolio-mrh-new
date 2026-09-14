@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Cek DPT Pilkades Serentak Desa Leles 2026",
-      image: "/public/assets/pilkades.png",
+      image: "/assets/pilkades.png",
       description:
         "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026, Memudahkan masyarakat untuk mengecek status DPT mereka secara online.",
       github: "https://pilkadesleles.net",
@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Sicatat Alfamed",
-      image: "/public/assets/sicatat.png",
+      image: "/assets/sicatat.png",
       description:
         "Aplikasi POS dengan fitur pengelolaan data dan stok obat, Pencatatan Transaksi, dan Pembuatan laporan.",
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
@@ -26,7 +26,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "Portfolio Suci Indah Purnama",
-      image: "/public/assets/suciip.png",
+      image: "/assets/suciip.png",
       description:
         "Website  portfolio pribadi yang menampilkan informasi tentang diri, keterampilan, dan pencapaian.",
       github: "https://mrizqh294.github.io/portfolio-suciindah",
