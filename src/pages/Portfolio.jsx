@@ -1,8 +1,4 @@
 import { motion } from "framer-motion";
-import sicatatImg from "../assets/sicatat.png";
-import businessCIImg from "../assets/business.png"; 
-import pilkadesImg from "../assets/pilkades.png";
-import suciIndahImg from "../assets/suciip.png";
 
 const Portfolio = () => {
   
@@ -10,32 +6,32 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Cek DPT Pilkades Serentak Desa Leles 2026",
-      image:
-        pilkadesImg,
+      image: "public/assets/pilkades.png",
       description:
         "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026, Memudahkan masyarakat untuk mengecek status DPT mereka secara online.",
       github: "https://pilkadesleles.net",
-      live: "",
+      label: "Visit",
+      icon : "fa-solid fa-arrow-up-right-from-square"
     },
     {
       id: 2,
       title: "Sicatat Alfamed",
-      image:
-        sicatatImg,
+      image: "public/assets/sicatat.png",
       description:
         "Aplikasi POS dengan fitur pengelolaan data dan stok obat, Pencatatan Transaksi, dan Pembuatan laporan.",
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
-      live: "",
+      label: "Sorce Code",
+      icon : "fa-brands fa-github"
     },
     {
       id: 3,
       title: "Portfolio Suci Indah Purnama",
-      image:
-        suciIndahImg,
+      image: "public/assets/suciip.png",
       description:
         "Website  portfolio pribadi yang menampilkan informasi tentang diri, keterampilan, dan pencapaian.",
       github: "https://mrizqh294.github.io/portfolio-suciindah",
-      live: "",
+      label: "Visit",
+      icon : "fa-solid fa-arrow-up-right-from-square"
     },
   ];
 
@@ -137,9 +133,12 @@ const Portfolio = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-xl border border-gray-900 px-4 py-2 text-sm font-medium text-gray-900 transition-all duration-300 hover:bg-gray-900 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900"
+                    className="inline-flex items-center justify-center rounded-md cursor-pointer border border-gray-900 px-4 py-2 text-sm font-medium text-gray-900 transition-all duration-300 hover:bg-gray-900 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900"
                   >
-                    Selengkapnya
+                    <span className="pe-2">
+                      <i class={project.icon}></i>
+                    </span>
+                    {project.label}
                   </a>
 
                   {/* <a

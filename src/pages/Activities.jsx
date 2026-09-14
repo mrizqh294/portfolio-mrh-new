@@ -1,10 +1,4 @@
 import { motion } from "framer-motion";
-import sertifikat1 from "../assets/sertifikat1.png";
-import sertifikat2 from "../assets/sertifikat2.png";
-import sertifikat3 from "../assets/sertifikat3.png";
-import sertifikat4 from "../assets/sertifikat4.png";
-import sertifikat5 from "../assets/sertifikat5.png";
-import sertifikat6 from "../assets/sertifikat6.png"
 
 const Activities = () => {
     const activities = [
@@ -13,42 +7,42 @@ const Activities = () => {
             title: "Promt Engineering untuk Software Developer",
             description:
                 "Dicoding Indonesia",
-            image: sertifikat1,
+            image: "public/assets/sertifikat1.png",
         },
         {
             id: 2,
             title: "Belajar Dasar AI",
             description:
                 "Dicoding Indonesia",
-            image: sertifikat2,
+            image: "public/assets/sertifikat2.png",
         },
         {
             id: 3,
             title: "Jobs Ready: Skill (Bahasa)",
             description:
                 "Wadhwani Foundation",
-            image: sertifikat3,
+            image: "public/assets/sertifikat3.png",
         },
         {
             id: 4,
             title: "Business Plan Creative & Innovative 2024",
             description:
                 "TIF Universitas Pasundan",
-            image: sertifikat6,
+            image: "public/assets/sertifikat6.png",
         },
         {
             id: 5,
             title: "Belajar Dasar Pemrograman Javascript",
             description:
                 "Dicoding Indonesia",
-            image: sertifikat4,
+            image: "public/assets/sertifikat4.png",
         },
         {
             id: 6,
             title: "Belajar Dasar Pemrograman Web",
             description:
                 "Dicoding Indonesia",
-            image: sertifikat5,
+            image: "public/assets/sertifikat5.png",
         },
     ];
 
