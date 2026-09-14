@@ -8,12 +8,14 @@ const experiences = [
     description:
       "Mengembangkan berbagai aplikasi web dan sistem informasi, termasuk sistem DPT Pilkades, sistem penjualan dan stok apotek, serta website portofolio, dengan menangani frontend, backend, database, API, dan deployment.",
     technologies: [
+      "Express.js",
+      "Django",
       "Next.js",
-      "MySQL",
-      "Prisma ORM",
-      "Tailwind CSS",
       "React",
       "Laravel",
+      "Prisma ORM",
+      "MySQL",
+      "Tailwind CSS",
       "REST API",
     ],
   },
@@ -78,7 +80,7 @@ const Education = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="relative border-l-2 border-gray-500 dark:border-gray-500 ml-4"
+          className="relative border-l border-gray-500 dark:border-gray-500 ml-4"
         >
           {experiences.map((exp, index) => (
             <motion.div
@@ -91,7 +93,7 @@ const Education = () => {
               className="relative mb-12 ml-8"
             >
               {/* Timeline Dot */}
-              <span className="absolute -left-[40px] top-2 w-4 h-4 rounded-full bg-white border-2 border-gray-900 dark:bg-gray-900 dark:border-gray-500" />
+              <span className="absolute -left-10 top-2 w-4 h-4 rounded-full bg-white border border-gray-900 dark:bg-gray-900 dark:border-gray-500" />
 
               {/* Card */}
               <div className="bg-white dark:bg-gray-900 transition-colors duration-300 rounded-xl border border-gray-500 p-6 shadow-lg hover:border-gray-400 ">
