@@ -70,7 +70,7 @@ const Portfolio = () => {
     // id digunakan agar navbar bisa mengarah ke bagian ini
     <section
       id="portfolio"
-      className="py-20 bg-white text-gray-900 dark:bg-gray-900 dark:text-white"
+      className="py-20 text-gray-900 dark:text-white"
     >
       <div className="container mx-auto px-6 lg:px-20">
         {/* Header section */}
@@ -112,7 +112,7 @@ const Portfolio = () => {
             >
               {/* Gambar project */}
               {/* overflow-hidden dipakai agar efek zoom gambar tetap rapi */}
-              <div className="p-3 overflow-hidden">
+              <div className="overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}

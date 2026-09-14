@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white text-gray-500 dark:bg-gray-900 dark:text-gray-400 py-10">
+    <footer className="dark:text-gray-400 py-10">
       <div className="container mx-auto px-6 lg:px-20">
 
         <motion.div
@@ -26,23 +26,20 @@ const Footer = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-8 text-center md:text-left"
+          className="pt-8 border-t border-gray-700 grid md:grid-rows-1 justify-center-safe"
         >
 
-          {/* ================= BRAND ================= */}
+          {/* ================= BRAND =================
           <motion.div variants={itemVariants}>
             <h2 className="text-gray-900 dark:text-white text-xl font-bold mb-2">
               Muhammad Rizki Haikal
             </h2>
-            <p className="text-sm">
-              Fullstack Developer
-            </p>
-          </motion.div>
+          </motion.div> */}
 
-          {/* ================= NAVIGASI ================= */}
-          <motion.div variants={itemVariants}>
-            <h3 className="text-gray-900 dark:text-white font-semibold mb-3">Navigasi</h3>
-            <ul className="space-y-2">
+          {/* ================= NAVIGASI =================
+          <motion.div className="grid grid-rows-2" variants={itemVariants}>
+            <h3 className="text-gray-900 dark:text-white font-semibold mb-3 text-center">Navigasi</h3>
+            <ul className="space-y-2 flex gap-6">
               <li>
                 <a href="#about" className="hover:text-gray-900 dark:hover:text-white transition duration-300">
                   Tentang Saya
@@ -69,13 +66,13 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </motion.div>
+          </motion.div> */}
 
           {/* ================= SOCIAL MEDIA ================= */}
-          <motion.div variants={itemVariants}>
+          <motion.div className="text-center" variants={itemVariants}>
             <h3 className="text-gray-900 dark:text-white font-semibold mb-3">Ikuti Saya</h3>
 
-            <div className="flex justify-center md:justify-start gap-4">
+            <div className="flex justify-center gap-4">
 
               {/* Instagram */}
               <a
@@ -131,9 +128,9 @@ const Footer = () => {
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="border-t border-gray-700 mt-8 pt-6 text-center text-sm"
+          className="pt-6 text-center text-sm"
         >
-          © 2026 Muhammad Rizki Haikal. All rights reserved.
+          © 2026 Muhammad Rizki Haikal.
         </motion.div>
       </div>
     </footer>

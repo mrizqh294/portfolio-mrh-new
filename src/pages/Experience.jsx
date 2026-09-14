@@ -56,7 +56,7 @@ const Education = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 text-gray-900 dark:text-white py-20 px-6"
+      className="min-h-screen transition-colors duration-300 text-gray-900 dark:text-white py-20 px-6"
     >
       <div className="max-w-5xl mx-auto">
         {/* Heading */}

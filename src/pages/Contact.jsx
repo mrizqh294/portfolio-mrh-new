@@ -94,7 +94,7 @@ const Contact = () => {
     return (
         <section
             id="contact"
-            className="min-h-screen bg-white dark:bg-gray-900 py-24 px-6"
+            className="min-h-screen py-24 px-6"
         >
             <div className="max-w-5xl mx-auto">
                 {/* Judul Section */}
@@ -134,8 +134,8 @@ const Contact = () => {
                                     key={item.label}
                                     href={item.href || undefined}
                                     className="group flex items-center gap-4 p-5 rounded-2xl
-                                            border border-gray-200 dark:border-gray-800
-                                            bg-white dark:bg-gray-900
+                                            border border-gray-200 dark:border-gray-900
+                                            bg-white dark:bg-gray-800
                                             transition-all duration-300
                                             hover:border-indigo-300 dark:hover:border-indigo-500/40
                                             hover:shadow-lg hover:shadow-indigo-50 dark:hover:shadow-none"
@@ -177,8 +177,8 @@ const Contact = () => {
                     <motion.form
                         variants={itemVariants}
                         onSubmit={handleSubmit}
-                        className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800
-                                bg-white dark:bg-gray-900 space-y-4"
+                        className="p-6 rounded-2xl border border-gray-200 dark:border-gray-900
+                                bg-white dark:bg-gray-800 space-y-4"
                     >
                         {/* Input Nama */}
                         <div>

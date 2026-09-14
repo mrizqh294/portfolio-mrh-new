@@ -86,7 +86,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="py-20 min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 items-center"
+      className="py-20 min-h-screen transition-colors duration-300 items-center"
     >
       <div className="container mx-auto px-6 lg:px-20">
         {/* ================= TITLE ================= */}
@@ -99,7 +99,7 @@ const AboutMe = () => {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
             Tentang Saya
           </h2>
-          <p className="text-gray-500 mt-2">Fullstack Web Developer</p>
+          {/* <p className="text-gray-500 mt-2">Fullstack Web Developer</p> */}
         </motion.div>
 
         {/* ================= CONTENT ================= */}

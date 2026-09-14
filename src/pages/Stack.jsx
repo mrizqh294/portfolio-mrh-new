@@ -63,7 +63,7 @@ const cardVariants = {
 
 const Stack = () => {
     return (
-        <section className="w-full bg-white dark:bg-gray-900 py-24 px-6">
+        <section className="w-full py-24 px-6">
             <div className="max-w-5xl mx-auto">
                 {/* Heading */}
                 <motion.div

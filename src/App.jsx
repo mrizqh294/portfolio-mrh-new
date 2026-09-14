@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="bg-white dark:bg-gray-900 transition-colors duration-300">
         <Hero />
         <AboutMe />
         <Experience />

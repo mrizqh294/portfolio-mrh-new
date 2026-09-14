@@ -77,7 +77,7 @@ const Activities = () => {
     return (
         <section
             id="activities"
-            className="py-24 bg-white dark:bg-gray-900"
+            className="py-24"
         >
             <div className="container mx-auto px-6 lg:px-20">
                 {/* Header section */}
@@ -115,7 +115,7 @@ const Activities = () => {
                             className="group overflow-hidden border rounded-2xl border-gray-200 bg-white shadow-md hover:shadow-2xl dark:border-gray-800 dark:bg-gray-800"
                         >
                             {/* Gambar aktivitas */}
-                            <div className="overflow-hidden p-3">
+                            <div className="overflow-hidden">
                                 <img
                                     src={item.image}
                                     alt={item.title}

@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center bg-white dark:bg-gray-900 transition-colors"
+      className="min-h-screen flex items-center transition-colors"
     >
       <div className="container mx-auto px-6 lg:px-8">
         <motion.div
