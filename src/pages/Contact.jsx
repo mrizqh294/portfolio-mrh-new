@@ -173,8 +173,8 @@ const Contact = () => {
           </motion.div>
 
           {/* =========================
-                        BAGIAN FORM KONTAK
-                    ========================== */}
+               BAGIAN FORM KONTAK
+            ========================== */}
           <motion.form
             variants={itemVariants}
             onSubmit={handleSubmit}

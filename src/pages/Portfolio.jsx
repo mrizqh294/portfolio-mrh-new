@@ -1,17 +1,22 @@
 import { motion } from "framer-motion";
 
 const Portfolio = () => {
-  
   const projects = [
     {
       id: 1,
-      title: "Cek DPT Pilkades Serentak Desa Leles 2026",
+      title: "Pilkadesleles.net",
       image: "/assets/pilkades.png",
       description:
-        "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026, Memudahkan masyarakat untuk mengecek status DPT mereka secara online.",
+        "Sistem berbasis web untuk pengecekan Daftar Pemilih Tetap (DPT) Pilkades Serentak Desa Leles 2026.",
       github: "https://pilkadesleles.net",
       label: "Visit",
-      icon : "fa-solid fa-arrow-up-right-from-square"
+      icon: "fa-solid fa-arrow-up-right-from-square",
+      stacks: [
+        "Next.js",
+        "Prisma ORM",
+        "MySQL",
+        "Tailwind CSS"
+      ]
     },
     {
       id: 2,
@@ -21,34 +26,45 @@ const Portfolio = () => {
         "Aplikasi POS dengan fitur pengelolaan data dan stok obat, Pencatatan Transaksi, dan Pembuatan laporan.",
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
       label: "Sorce Code",
-      icon : "fa-brands fa-github"
+      icon: "fa-brands fa-github",
+      stacks: [
+        "Laravel",
+        "Eloquent ORM",
+        "MySQL",
+        "Tailwind CSS"
+      ]
     },
     {
       id: 3,
-      title: "Portfolio Suci Indah Purnama",
+      title: "Portfolio Suci Indah",
       image: "/assets/suciip.png",
       description:
         "Website  portfolio pribadi yang menampilkan informasi tentang diri, keterampilan, dan pencapaian.",
       github: "https://mrizqh294.github.io/portfolio-suciindah",
       label: "Visit",
-      icon : "fa-solid fa-arrow-up-right-from-square"
+      icon: "fa-solid fa-arrow-up-right-from-square",
+      stacks: [
+        "Vite",
+        "React",
+        "Tailwind CSS"
+      ]
     },
   ];
 
   // Variants animasi untuk container utama
-  
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.6, 
+        staggerChildren: 0.6,
       },
     },
   };
 
   // Variants animasi untuk tiap card
- 
+
   const cardVariants = {
     hidden: { opacity: 0, y: 40 },
     visible: {
@@ -64,10 +80,7 @@ const Portfolio = () => {
   return (
     // Section utama portfolio
     // id digunakan agar navbar bisa mengarah ke bagian ini
-    <section
-      id="portfolio"
-      className="py-20 text-gray-900 dark:text-white"
-    >
+    <section id="portfolio" className="py-20 text-gray-900 dark:text-white">
       <div className="container mx-auto px-6 lg:px-20">
         {/* Header section */}
         <motion.div
@@ -76,9 +89,7 @@ const Portfolio = () => {
           whileInView="visible"
           className="text-center mb-14"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Portofolio
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Portofolio</h2>
 
           <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
             Berikut beberapa proyek yang sudah saya kerjakan.
@@ -119,16 +130,34 @@ const Portfolio = () => {
               {/* Konten card */}
               <div className="p-6">
                 {/* Judul project */}
-                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                <div className="h-10 overflow-hidden">
+                  <h3 className="text-xl font-semibold mb-3">
+                    {project.title}
+                  </h3>
+                </div>
+
+                <div className="overflow-hidden">
+                  <p className="text-sm leading-relaxed text-gray-900 dark:text-gray-200">
+                    {project.description}
+                  </p>
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {project.stacks.map((stack) => (
+                    <span
+                      key={stack}
+                      className="px-3 py-1 rounded-full text-gray-500 dark:text-gray-400 border border-gray-400/20 text-sm"
+                    >
+                      {stack}
+                    </span>
+                  ))}
+                </div>
 
                 {/* Deskripsi singkat */}
-                <p className="text-sm leading-relaxed text-gray-500 dark:text-gray-400 mb-6">
-                  {project.description}
-                </p>
 
                 {/* Tombol aksi */}
                 {/* Terdiri dari tombol GitHub dan Live Demo */}
-                <div className="flex gap-3">
+                <div className="mt-4 flex gap-3">
                   <a
                     href={project.github}
                     target="_blank"
