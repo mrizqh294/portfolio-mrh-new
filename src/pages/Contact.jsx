@@ -124,9 +124,8 @@ const Contact = () => {
           viewport={{ once: true, amount: 0.2 }}
           className="grid md:grid-cols-2 gap-6"
         >
-          {/* =========================
-                        BAGIAN INFORMASI KONTAK
-                    ========================== */}
+          {/* INFORMASI KONTAK */}
+          
           <motion.div variants={itemVariants} className="space-y-4">
             {contactInfo.map((item) => {
               const Wrapper = item.href ? "a" : "div";

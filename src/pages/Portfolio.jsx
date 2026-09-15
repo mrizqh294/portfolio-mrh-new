@@ -11,12 +11,7 @@ const Portfolio = () => {
       github: "https://pilkadesleles.net",
       label: "Visit",
       icon: "fa-solid fa-arrow-up-right-from-square",
-      stacks: [
-        "Next.js",
-        "Prisma ORM",
-        "MySQL",
-        "Tailwind CSS"
-      ]
+      stacks: ["Next.js", "Prisma ORM", "MySQL", "Tailwind CSS"],
     },
     {
       id: 2,
@@ -27,12 +22,7 @@ const Portfolio = () => {
       github: "https://github.com/mrizqh294/pointofsale-alfamed",
       label: "Sorce Code",
       icon: "fa-brands fa-github",
-      stacks: [
-        "Laravel",
-        "Eloquent ORM",
-        "MySQL",
-        "Tailwind CSS"
-      ]
+      stacks: ["Laravel", "Eloquent ORM", "MySQL", "Tailwind CSS"],
     },
     {
       id: 3,
@@ -43,11 +33,7 @@ const Portfolio = () => {
       github: "https://mrizqh294.github.io/portfolio-suciindah",
       label: "Visit",
       icon: "fa-solid fa-arrow-up-right-from-square",
-      stacks: [
-        "Vite",
-        "React",
-        "Tailwind CSS"
-      ]
+      stacks: ["Vite", "React", "Tailwind CSS"],
     },
   ];
 
@@ -130,17 +116,12 @@ const Portfolio = () => {
               {/* Konten card */}
               <div className="p-6">
                 {/* Judul project */}
-                <div className="h-10 overflow-hidden">
-                  <h3 className="text-xl font-semibold mb-3">
-                    {project.title}
-                  </h3>
-                </div>
-
-                <div className="overflow-hidden">
-                  <p className="text-sm leading-relaxed text-gray-900 dark:text-gray-200">
-                    {project.description}
-                  </p>
-                </div>
+                <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                
+                {/* Deskripsi singkat */}
+                <p className="text-sm leading-relaxed text-gray-900 dark:text-gray-200">
+                  {project.description}
+                </p>
 
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.stacks.map((stack) => (
@@ -152,8 +133,6 @@ const Portfolio = () => {
                     </span>
                   ))}
                 </div>
-
-                {/* Deskripsi singkat */}
 
                 {/* Tombol aksi */}
                 {/* Terdiri dari tombol GitHub dan Live Demo */}
