@@ -137,7 +137,6 @@ const Contact = () => {
                                             border border-gray-200 dark:border-gray-900
                                             bg-white dark:bg-gray-800
                                             transition-all duration-300
-                                            hover:border-indigo-300 dark:hover:border-indigo-500/40
                                             hover:shadow-lg hover:shadow-indigo-50 dark:hover:shadow-none"
                 >
                   <span
@@ -198,7 +197,7 @@ const Contact = () => {
                                         text-gray-900 dark:text-white text-sm
                                         placeholder:text-gray-400
                                         outline-none transition-colors duration-300
-                                        focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:focus:ring-indigo-500/20"
+                                        focus:border-cyan-400 dark:focus:border-white"
               />
             </div>
 
@@ -220,7 +219,7 @@ const Contact = () => {
                                         text-gray-900 dark:text-white text-sm
                                         placeholder:text-gray-400
                                         outline-none transition-colors duration-300
-                                        focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:focus:ring-indigo-500/20"
+                                        focus:border-cyan-400 dark:focus:border-white"
               />
             </div>
 
@@ -242,7 +241,7 @@ const Contact = () => {
                                         text-gray-900 dark:text-white text-sm
                                         placeholder:text-gray-400
                                         outline-none transition-colors duration-300
-                                        focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100 dark:focus:ring-indigo-500/20"
+                                        focus:border-cyan-400 dark:focus:border-white"
               ></textarea>
             </div>
 

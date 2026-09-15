@@ -36,7 +36,7 @@ const ThemeToggle = () => {
             aria-checked={isDark}
             aria-label="Toggle dark mode"
             className={`relative inline-flex items-center
-                    w-16 h-8 rounded-full
+                    w-16 h-8 rounded-full cursor-pointer
                     transition-colors duration-300
                     ${isDark ? "bg-gray-700" : "bg-gray-300"}`}
         >
