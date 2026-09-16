@@ -15,6 +15,17 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      title: "Simple SIMRS",
+      image: "/assets/simrs.png",
+      description:
+        "Sistem Pendaftaran dan rekam medis pasien berbasis web dengan tiga modul yaitu Admin, Pendaftaran, dan Dokter.",
+      github: "https://github.com/mrizqh294/simple_simrs.git",
+      label: "Source Code",
+      icon: "fa-brands fa-github",
+      stacks: ["Next.js", "Prisma ORM", "MySQL", "Tailwind CSS"],
+    },
+    {
+      id: 3,
       title: "Sicatat Alfamed",
       image: "/assets/sicatat.png",
       description:
@@ -25,7 +36,7 @@ const Portfolio = () => {
       stacks: ["Laravel", "Eloquent ORM", "MySQL", "Tailwind CSS"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Portfolio Suci Indah",
       image: "/assets/suciip.png",
       description:
