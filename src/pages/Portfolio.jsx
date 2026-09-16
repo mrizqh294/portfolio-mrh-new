@@ -22,7 +22,7 @@ const Portfolio = () => {
       github: "https://github.com/mrizqh294/simple_simrs.git",
       label: "Source Code",
       icon: "fa-brands fa-github",
-      stacks: ["Next.js", "Prisma ORM", "MySQL", "Tailwind CSS"],
+      stacks: ["React", "Vite", "Tailwind CSS", "Express.js", "Prisma ORM", "MySQL", "REST API"],
     },
     {
       id: 3,
