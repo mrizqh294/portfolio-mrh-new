@@ -24,7 +24,7 @@ const experiences = [
     position: "Backend Developer",
     period: "Agu 2023 - Des 2023",
     description:
-      "Mengembangkan API untuk dashboard website sekolah dengan menggunakan framework Django, Berhasil menyelesaikan 10+ endpoint API, Lulus magang dengan nilai A.",
+      "Mengembangkan API untuk dashboard website sekolah dengan menggunakan framework Django, Berhasil menyelesaikan 15+ endpoint API, Lulus magang dengan nilai A.",
     technologies: ["Django", "PostgreSQL", "Git", "REST API"],
   },
 ];
