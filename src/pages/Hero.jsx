@@ -76,7 +76,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1AlVN0vVkoizSIm7Qlj--eEOh5bmKE46n/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1H1y-m1q-cDZASbS2zJD0A--11qKo6uDF/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-900 dark:hover:text-white hover:scale-110 transition"
